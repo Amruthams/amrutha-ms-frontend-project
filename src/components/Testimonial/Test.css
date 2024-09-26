@@ -1,0 +1,153 @@
+.testimonial {
+
+    background: linear-gradient(to bottom left, rgb(17, 5, 99), black);
+    padding-top: 30px;
+
+}
+
+.test {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.testleft {
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+
+
+}
+
+.testright {
+    margin-right: 400px;
+    margin-top: 20px;
+}
+
+.testright p {
+    font-size: 20px;
+    color: white;
+    line-height: 1.5;
+    max-width: 500px;
+}
+
+.testright p span {
+    color: gray;
+}
+
+
+/* ''''''''''''''''''''''''''''' */
+
+.profile {
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 50px;
+}
+
+.paragraph {
+    margin-left: 20px;
+
+}
+
+.paragraph h4 {
+    font-weight: 400;
+
+}
+
+.paragraph p {
+    color: rgba(187, 187, 187, 1);
+    font-size: 15px;
+}
+
+/* ''''''''''''''''''''''' */
+
+.circle {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.circle-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    margin: 10px;
+
+
+}
+
+
+
+.left-arrow,
+.right-arrow {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width: 768px) {
+    .test {
+        display: grid;
+        grid-template-columns: 5fr 8fr;
+
+    
+    }
+    .testleft{
+        margin-top: 0px;
+        padding: 0px;
+        margin-bottom: 200px;
+        margin-left: 10px;
+    }
+    .testright{
+        margin-right: 100px;
+        margin-top: 0px;
+    }
+    .testright p{
+        font-size: 15px;
+    }
+    .profile{
+        margin-left: 20px;
+    }
+    .profile img{
+        width: 30px;
+    }
+    .paragraph h4{
+        font-size: smaller;
+    }
+    .paragraph p{
+        font-size: 10px;
+    }
+    .circle{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .circle-button{
+        width: 30px;
+        height: 30px;
+
+    }
+    .left-arrow,.right-arrow{
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
